@@ -3,10 +3,10 @@
 namespace asgalex\evercookie;
 
 use Yii;
-use yii\base\Object;
+use yii\base\BaseObject;
 use yii\web\AssetManager;
 
-class EverCookie extends Object
+class EverCookie extends BaseObject
 {
     public $history = true;
     public $java = true;
